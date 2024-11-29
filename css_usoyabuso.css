@@ -1,0 +1,201 @@
+/*DISEÑO PARA TELEFONO*/
+body{
+	background-image: url(img/fondoprincipal.png);
+}
+
+header{
+	background-image: url(img/fondoprueba1.png);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 40px;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-image: url(img/fondoprueba2.png);
+	height: 600px;
+	width: 200px;
+	float: left;
+	padding: 7px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 750px;
+	float: left;
+	padding: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 20px;
+	padding: 0px 150px 0px 150px;
+}
+
+footer{
+	background-image: url(img/fondoprueba3.png);
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+
+h2{
+	color: white;
+}
+
+p{
+	font-family: cursive;
+	font-size: 30px;
+	color: #ffe8a8;
+	-webkit-text-stroke: 1px #e56919;
+	text-shadow: #e56919 1px 1px 2px;
+}
+
+caption{
+	font-family: cursive;
+	font-size: 30px;
+	color: #ffe8a8;
+	-webkit-text-stroke: 1px #e56919;
+	text-shadow: #e56919 1px 1px 2px;
+}
+
+li{
+	color: white;
+	text-shadow: #8c7318 1px 1px 2px;
+}
+
+img{
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin: auto;
+	clear: right;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+main .fondo{
+	text-align: center;
+	width: 50%;
+}
+
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+
+main .fondo img:hover{
+	transform: scale(1.05);
+}
+/*DISEÑO PARA ESCRITORIO*/
+@media screen and (min-width:800px){
+	body{
+	background-image: url(img/fondoprincipal.png);
+}
+
+header{
+	background-image: url(img/fondoprueba1.png);
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 40px;
+	width: 100%;
+}
+
+nav{
+	line-height: 30px;
+	background-image: url(img/fondoprueba2.png);
+	height: 600px;
+	width: 200px;
+	float: left;
+	padding: 7px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+section{
+	width: 750px;
+	float: left;
+	padding: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 20px;
+	padding: 0px 150px 0px 150px;
+}
+
+footer{
+	background-image: url(img/fondoprueba3.png);
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+
+h2{
+	color: white;
+}
+
+p{
+	color: white;
+	text-shadow: #8c7318 1px 1px 2px;
+}
+
+li{
+	color: white;
+	text-shadow: #8c7318 1px 1px 2px;
+}
+
+img{
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin: auto;
+	clear: right;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+main .fondo{
+	text-align: center;
+	width: 50%;
+}
+
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+
+main .fondo img:hover{
+	transform: scale(1.05);
+}
+}
